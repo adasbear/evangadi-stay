@@ -1,0 +1,351 @@
+/* Style for all elements */
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Montserrat', sans-serif; */
+}
+
+img{
+    max-width: 100%;
+}
+
+body{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* background: #fff; */
+}
+
+/* Style for the header goes here */
+.header-container {
+	background: black; 
+	color: #fff;
+	font-weight: 200;
+	font-size: 15px;	
+}
+
+.header-sub-container {
+	width: 980px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+
+.header-links-container ul li a {
+	color: #fff;
+}
+
+.header-links-container ul li {
+  padding: 14px 0 8px;
+  height: 25px;
+  opacity: 0.8;
+}
+
+.header-links-container ul li:hover {
+	opacity: 1;
+}
+
+.logo, .search, .cart {
+	width: 18px;
+}
+
+
+/* Style for the first banner goes here */
+.first-banner-wrapper{
+    background-color: #fafafa;
+    text-align: center;
+    padding: 25px;
+}
+
+.model{
+    font-size: 17px;
+}
+
+.product-name{
+    font-weight: 700;
+    font-size: 56px;
+}
+
+.product-description{
+    font-size: 40px;
+}
+
+.links-container ul li{
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.links-container ul li a:hover{
+    color: black;
+}
+
+.links-container ul li a:after{
+    font-family: "FontAwesome";
+    content: "\f105";
+    font-weight: 900;
+    padding-left: 9px;
+}
+
+.links-container ul li a{
+    color: #06c;
+}
+
+.links-container{
+    margin: 20px 0;
+}
+
+/* Second Banner Section Goes Here */
+.second-banner-wrapper{
+    background-image: url('../Images/home/iphone11-pro-bg.jpg');
+    height: 580px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #ffff;
+    padding: 65px 20px;
+}
+
+.second-banner-wrapper .links-container ul li a:hover{
+    color: white;
+}
+
+.title-container{
+    font-size: 56px;
+    font-weight: 600;
+}
+
+.description-container{
+    font-size: 26px;
+    padding: 10px 0;
+}
+
+.price-container{
+    color: #86868b;
+    font-size: 17px;
+}
+
+/* Style for the third banner goes here */
+.third-banner-wrapper{
+    background-image: url('../Images/home/iphone11-bg.jpg');
+    height: 580px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: black;
+    padding: 65px 20px;
+}
+
+.title-container{
+    font-size: 56px;
+    font-weight: 600;
+}
+
+.description-container{
+    font-size: 26px;
+    padding: 10px 0;
+}
+
+.price-container{
+    color: #86868b;
+    font-size: 17px;
+}
+
+/* Fourth Container Goes Here */
+.fourth-container .left-side-container{
+    background-image: url(../Images/home/watch-series-5.jpg);
+}
+
+.fourth-container .right-side-container{
+    background-image: url(../Images/home/apple-card.jpg);
+}
+
+.left-side-container{
+    height: 580px;
+    width: 48%;
+    margin: 1% 1% 0 1%;
+    padding-top: 54px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.right-side-container{
+    height: 580px;
+    width: 48%;
+    margin: 1% 1% 0 1%;
+    padding-top: 54px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.small-description{
+    max-width: 430px;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+/* Fifth Container Goes Here */
+.fifth-container .left-side-container{
+    background-image: url(../Images/home/apple-tv-background.jpg);
+}
+
+.fifth-container .right-side-container .links-container ul li a:hover{
+    color: white;
+}
+
+.fifth-container .right-side-container{
+    background-image: url(../Images/home/air-pods.jpg);
+    color: #fff;
+    background-size: initial;
+    background-color: #000;
+    background-position: bottom;
+}
+
+.right-side-container .logo-container{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.servant-logo-container{
+    padding: 190px 0 200px;
+}
+
+.trailer-container a:after{
+    font-family: "FontAwesome";
+    content: "\f144";
+    font-weight: 900;
+    padding-left: 15px;
+}
+
+/* sixth-container Goes here */
+.sixth-container .left-side-container{
+    background-image: url(../Images/home/macbook-pro.jpg);
+    background-size: initial;
+    background-color: #fafafa;
+    background-position: bottom;
+}
+
+.sixth-container .right-side-container{
+    background-image: url(../Images/home/new-ipad.jpg);
+}
+
+.small-title-container{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+/* Footer Style Goes Here */
+.footer-container{
+    background-color: #f5f5f7;
+    color: #1d1d1f;
+    font-size: 13px;
+}
+
+.footer-sub-container{
+    width: 1020px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.footer-text-container{
+    border-bottom: 1px solid #d2d2d7;
+    color: #86868b;
+    padding: 17px 0 20px;
+}
+
+.footer-text-container a{
+    color: #515154;
+}
+
+.footer-text-container a:hover{
+    text-decoration: underline;
+}
+
+.footer-links-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 13px;
+}
+
+.footer-links-container ul{
+    padding-bottom: 20px;
+}
+
+.footer-links-container ul li{
+    padding: 6px 0;
+    font-size: 13px;
+}
+
+.footer-links-container a{
+    color: #515154;
+}
+
+.footer-links-container a:hover{
+    text-decoration: underline;
+}
+
+.footer-links-container h3{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+.more-ways-container{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #d2d2d7;
+}
+
+.copyright-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0 20px;
+}
+
+.footer-terms-container ul li {
+  display: inline-block;
+  padding: 0 5px;
+  border-right: 1px solid #ccc;
+}
+
+.footer-terms-container ul li a {
+    color: #515154;
+}
+
+.footer-terms-container ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-country-container{
+    display: inline-block;
+}
+
+.flag-container{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.footer-country-name-container{
+    display: inline-block;
+    vertical-align: top;
+}

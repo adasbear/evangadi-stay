@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+.blueBG {
+  background-color: #2a4c77;
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+/* Header Section Goes Here */
+header .container {
+  padding: 20px;
+}
+
+.bannerImage {
+  padding-bottom: 20px;
+}
+
+.bannerImage img{
+  width: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 6%;
+}
+
+/* Main Puppies Section Goes Here*/
+
+.container .puppyContainer img {
+  width: 100%;
+}
+
+.container .puppyContainer {
+  padding: 20px 0;
+}
+
+.container .missingText {
+  display: none;
+}
+
+/* More Puppies Section Goes Here */
+.morePuppies p {
+  text-align: center;
+  font-size: 3em;
+  font-weight: 800;
+  padding: 40px 0;
+}
+
+.moreImageContainer img {
+  width: 100%;
+}
+
+.moreImage {
+  padding-bottom: 50px;
+}
+
+.moreImageContainer {
+  margin-bottom: 20px;
+}
+
+/* Footer Section Goes Here */
+footer div{
+  padding: 30px 0 40px;
+}
+
+/* MediaQuery Goes Here */
+
+@media (min-width: 768px) {
+  .flex-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .container .puppyContainer {
+    width: 30%;
+  }
+
+  .container .missingText {
+    background-color: #EE4D65;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    align-items: center;
+    font-size: 3em;
+    text-align: center;
+    margin: 2% 0;
+    padding: 0 5%;
+  }
+
+  .moreImage {
+    width: 47%;
+  }
+
+}
