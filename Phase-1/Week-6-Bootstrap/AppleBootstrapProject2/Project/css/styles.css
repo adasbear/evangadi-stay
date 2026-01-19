@@ -1,0 +1,222 @@
+/* General Styling*/
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Adugnas Style Starts Here */
+
+/* Header Style */
+.nav-wrapper {
+  background: rgba(0, 0, 0, 0.8);
+  font-size: 0.85em;
+  font-weight: 200;
+}
+.nav-wrapper ul li a {
+  color: #fff;
+}
+.navbar-toggler {
+  color: #fff;
+}
+.nav-item {
+  text-align: left !important;
+  padding: 4px 0;
+  border-bottom: 1px solid #4b4b4b;
+}
+
+
+/* Footer Styling */
+.footer-wrapper {
+  background-color: #f5f5f7;
+  color: #86868b;
+  font-size: 0.7em;
+}
+.footer-wrapper ul {
+  list-style: none;
+  padding-bottom: 10px;
+  padding-inline-start: 0px;
+}
+.footer-wrapper ul a {
+  color: #515154;
+  text-decoration: none;
+}
+.my-apple-wrapper {
+  padding-bottom: 15px;
+  margin-top: 10px;
+}
+.copyright {
+  margin-top: 15px;
+}
+.footer-country {
+  margin-top: 8px;
+}
+.flag-wrapper {
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 5px;
+}
+.footer-country-name {
+  display: inline-block;
+  vertical-align: middle;
+}
+.footer-links-terms ul {
+  display: flex;
+}
+.footer-links-terms ul li a {
+  border-right: 1px solid #d2d2d7;
+  padding: 0 5px;
+}
+.footer-links-terms ul li:first-child {
+  padding-left: 0;
+}
+.footer-links-terms ul li:last-child {
+  border-right: 0;
+}
+
+.footer-links-wrapper h3 {
+  font-size: 12px;
+  font-weight: 600;
+  color: #1d1d1f;
+}
+.footer-wrapper ul li {
+  padding: 4px 0;
+}
+.upper-text-container {
+  border-bottom: 1px solid #d2d2d7;
+  padding: 17px 0 10px;
+  margin-bottom: 20px;
+}
+.upper-text-container a {
+  color: #515154;
+}
+
+/*Media Query*/
+/* Footer */
+@media (max-width: 768px) {
+  .footer-links-wrapper ul {
+    display: none;
+  }
+  .footer-links-wrapper h3 {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  .footer-links-wrapper h3:after {
+    font-family: "FontAwesome";
+    content: "\f067";
+    padding-left: 10px;
+    position: absolute;
+    right: 25px;
+  }
+}
+@media (min-width: 768px) {
+  /*Nav bar*/
+  .nav-item {
+    text-align: center !important;
+    padding: 0;
+    border-bottom: 0px;
+  }
+  /*Footer styling*/
+  .my-apple-wrapper {
+    border-bottom: 1px solid #d2d2d7;
+  }
+}
+@media (min-width: 992px) {
+  /*Footer styling*/
+  .copyright {
+    margin-top: 10px;
+  }
+  .footer-country {
+    margin-top: 10px;
+  }
+  .footer-links-terms {
+    margin-top: 10px;
+  }
+}
+
+/* Adugnas Style Ends Here */
+
+
+/* My Style Begins Here */
+
+.top-pad{
+  padding-top: 100px;
+}
+
+.bg-grey{
+  background-color: #FAFAFA;
+}
+
+.main ul li a::after{
+  font-family: "FontAwesome";
+  content: "\f105";
+  font-weight: 900;
+  padding-left: 9px;
+}
+
+.bg-property{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 580px;
+}
+
+/* For Second Banner */
+.phone-pro{
+  background-image: url("../images/home/iphone11-pro-bg.jpg");
+}
+
+/* For Third Banner */
+.phone-11{
+  background-image: url("../images/home/iphone11-bg.jpg");
+}
+
+/* For Fourth Section */
+
+/* Left Side */
+.watch-container{
+  background-image: url("../images/home/watch-series-5.jpg");
+}
+
+/* Right Side */
+.new-card-container{
+  background-image: url("../images/home/apple-card.jpg");
+}
+
+/* Fifth Section */
+
+/* Left Side */
+.trailer-container a:after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f144";
+  padding-left: 15px;
+}
+
+.apple-tv-container{
+  background-image: url("../images/home/apple-tv-background.jpg");
+}
+
+/* Right Side */
+.apple-airpods-container{
+  background-image: url("../images/home/air-pods.jpg");
+  background-position: bottom;
+  background-size: initial;
+  background-color: #000;
+}
+
+/* Sixth Section Goes Here */
+
+/* Left Side */
+.mac-book-container{
+  background-image: url("../images/home/macbook-pro.jpg");
+  background-position: bottom;
+  background-size: initial;
+  background-repeat: no-repeat;
+}
+
+/* Right Side */
+.ipad-container {
+  background-image: url("../images/home/new-ipad.jpg");
+  background-position: bottom;
+}
+
+/* My Style Ends Here */
