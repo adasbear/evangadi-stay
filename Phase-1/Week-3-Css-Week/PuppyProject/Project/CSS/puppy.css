@@ -1,0 +1,93 @@
+/* Style for all elements */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Poppins;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* Common class styles */
+.blueBG{
+    background-color: #195774;
+}
+
+.whiteText{
+    text-align: center;
+    color: white;
+    /* font-size: 40px; */
+}
+
+/* Style for the Header Goes here */
+header div{
+    padding: 27px 0 24px;
+}
+
+/* Banner IMG Section Goes Here */
+.banner{
+    margin-bottom: 84px;
+}
+
+.bannerContainer img{
+    width: 100%;
+}
+
+/* Main Container Style Goes Here */
+.groupOne,
+.secondGroup{
+    width: 960px;
+    margin: 0 auto;
+}
+
+/* Style for first group goes here */
+.firstGroup img{
+    width: 100%;
+}
+
+.firstGroup div{
+    width: 33%;
+}
+
+.groupOne .firstGroup{
+    display: flex;
+}
+
+.missing-wrapper{
+    background-color: #EE4D65;
+    margin: 0 1%;
+    height: 314px;
+}
+
+.missing-wrapper p{
+    font-size: 40px;
+    padding: 65px 50px 45px;
+    text-align: center;
+    font-weight: 500;
+}
+
+/* Style for Second Group goes here */
+.secondGroup{
+    margin-top: 40px;
+}
+
+.secondGroup .secondTitle{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.secondGroup .secondWrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Style for Footer Section goes here */
+footer div{
+    margin-top: 75px;
+    padding: 40px 0;
+}

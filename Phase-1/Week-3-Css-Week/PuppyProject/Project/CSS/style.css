@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+
+img{
+    max-width: 100%;
+}
+
+.myHeader .firstTitle{
+    padding: 27px 0 24px;
+}
+
+.blueBG{
+    background-color: #085070;
+}
+
+.whiteText{
+    color: white;
+    text-align: center;
+}
+
+.banner-puppies img{
+    width: 100%;
+}
+
+.banner-puppies{
+    margin-bottom: 84px;
+}
+
+.firstGroup .groupContainer div{
+    width: 33%;
+}
+
+.missingPuppy{
+    background-color: #fe4d65;
+    margin: 0 1%;
+}
+
+.missing-wrapper{
+    font-size: 40px;
+    padding: 71px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.fixedContainer div,
+.secondGroup .fixedContainer{
+    display: flex;
+}
+
+.firstGroup,
+.secondGroup{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.secondGroup{
+    margin-top: 50px;
+}
+
+.secondGroup h2{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.secondGroup .fixedContainer{
+    justify-content: space-between;
+}
+
+footer{
+    margin-top: 75px;
+    padding: 100px 0 125px;
+}
